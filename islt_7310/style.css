@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Krona One', sans-serif;
+    src: url(<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">);
+}
+h1 {color: #black;}
+.paragraph {text-indent: 1.5em;}
+div {width: 500px;
+    height: 500px;
+padding: 25px;
+margin: 20px;}
+span {color:red;}
+div {box-align: left;}
+#aboutme {position: flex;
+    right: 850px;
+top: 275px;
+min-width: 900px;
+font-family: 'Krona One', sans-serif;}
+
+#education {position: flex;
+    right: 850px;
+top: 625px;
+min-width: 900px;
+font-family: serif;}
+@media (min-width: 600px) {
+    p{
+        font-size: 1.25rem;
+    }
+}
+@media (min-width: 800px) {
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+@media (max-width :200px){}
+
+#hello {width: 1500px;
+padding: 2px
+}
+#footer {position: flex;
+}
+.paragraph {min-width: 1500px}
+blockquote {font-size: 1.5rem;
+font-family: serif;}
+footer {
+    background-image: url(images/color.jpeg);
+
+}
